@@ -1,4 +1,4 @@
-module SpreeVariantAllOptions
+module SolidusVariantAllOptions
   module ArrayHelper
     def self.array_permutation array
       return array[0] if array.size == 1

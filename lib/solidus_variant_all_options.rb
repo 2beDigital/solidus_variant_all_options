@@ -1,9 +1,9 @@
-require 'spree_variant_all_options/version'
+require 'solidus_variant_all_options/version'
 require 'spree_core'
 
-module SpreeVariantAllOptions
+module SolidusVariantAllOptions
   class Engine < Rails::Engine
-    engine_name 'spree_variant_all_options'
+    engine_name 'solidus_variant_all_options'
 
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|

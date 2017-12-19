@@ -1,6 +1,6 @@
 <li id="create_all" data-hook>
-  <%= link_to_with_icon('fire',t(:create_all), create_all_admin_product_variants_path , :class => 'button') %>
+  <%= link_to_with_icon('fire',t(:create_all), create_all_admin_product_variants_path ,method: :post , :class => 'button') %>
 </li>
 <li id="remove_all" data-hook>
-  <%= link_to_with_icon('trash',t(:remove_all), remove_all_admin_product_variants_path , :class => 'button') %>
+  <%= link_to_with_icon('trash',t(:remove_all), remove_all_admin_product_variants_path ,method: :post , :class => 'button') %>
 </li>
